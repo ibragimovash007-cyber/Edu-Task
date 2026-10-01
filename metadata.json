@@ -1,0 +1,6 @@
+{
+  "name": "EduTask - O'quvchi va Talabalar Uchun Yagona Vazifalar Markazi",
+  "description": "Maktab va universitet o'quvchilari uchun barcha fanlardan uyga vazifalar, topshirish muddatlari, qolgan vaqt hisoblagichi va o'qituvchi nazorati bir platformada.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#3730a3" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+  </defs>
+  <!-- Background with squircle radius -->
+  <rect width="512" height="512" rx="112" fill="url(#grad)" />
+  
+  <!-- Graduation Cap & Task Check emblem -->
+  <g transform="translate(64, 70) scale(0.75)">
+    <!-- Cap Top Diamond -->
+    <polygon points="256,48 464,144 256,240 48,144" fill="#ffffff" />
+    <!-- Cap Ribbon & Tassel -->
+    <path d="M410,170 L410,290 C410,305 395,315 385,310 L385,350 L395,360 L375,360 L385,350 L385,305" fill="#facc15" stroke="#ca8a04" stroke-width="4" />
+    <circle cx="410" cy="170" r="10" fill="#facc15" />
+
+    <!-- Cap Lower Headband -->
+    <path d="M120,206 L120,280 C120,335 180,370 256,370 C332,370 392,335 392,280 L392,206 L256,270 Z" fill="#e0e7ff" opacity="0.95" />
+
+    <!-- Big Checkmark inside floating shield badge -->
+    <circle cx="256" cy="400" r="76" fill="#10b981" />
+    <path d="M224,400 L246,422 L290,378" fill="none" stroke="#ffffff" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>
